@@ -109,6 +109,12 @@ body,
   @apply !border-l-primary-700;
 }
 
+.map-container {
+  height: 100%;
+  width: 100%;
+  min-height: 400px;
+}
+
 .marker-popup {
   @apply bg-primary-700;
   @apply text-white;
