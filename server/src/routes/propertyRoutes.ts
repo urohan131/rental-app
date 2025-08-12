@@ -12,7 +12,7 @@ const upload = multer({ storage: storage });
 
 const router = express.Router();
 
-router.get("/:", getProperties);
+router.get("/", getProperties);
 router.get("/:id", getProperty);
 router.post(
   "/",

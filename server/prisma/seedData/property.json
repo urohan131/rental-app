@@ -7,8 +7,8 @@
     "securityDeposit": 1500.0,
     "applicationFee": 50.0,
     "photoUrls": [
-      "https://example.com/apartment1_1.jpg",
-      "https://example.com/apartment1_2.jpg"
+      "https://picsum.photos/800/600?random=1",
+      "https://picsum.photos/800/600?random=2"
     ],
     "amenities": ["AirConditioning", "WasherDryer", "Parking"],
     "highlights": ["HighSpeedInternetAccess", "CloseToTransit"],
@@ -32,8 +32,8 @@
     "securityDeposit": 2000.0,
     "applicationFee": 75.0,
     "photoUrls": [
-      "https://example.com/beachhouse1.jpg",
-      "https://example.com/beachhouse2.jpg"
+      "https://picsum.photos/800/600?random=3",
+      "https://picsum.photos/800/600?random=4"
     ],
     "amenities": ["AirConditioning", "WasherDryer", "Parking", "Pool"],
     "highlights": ["GreatView", "CloseToTransit"],
@@ -57,8 +57,8 @@
     "securityDeposit": 2200.0,
     "applicationFee": 60.0,
     "photoUrls": [
-      "https://example.com/cityloft1.jpg",
-      "https://example.com/cityloft2.jpg"
+      "https://picsum.photos/800/600?random=5",
+      "https://picsum.photos/800/600?random=6"
     ],
     "amenities": ["AirConditioning", "WasherDryer", "Gym"],
     "highlights": ["HighSpeedInternetAccess", "CloseToTransit"],
@@ -82,8 +82,8 @@
     "securityDeposit": 2500.0,
     "applicationFee": 80.0,
     "photoUrls": [
-      "https://example.com/familyhome1.jpg",
-      "https://example.com/familyhome2.jpg"
+      "https://picsum.photos/800/600?random=7",
+      "https://picsum.photos/800/600?random=8"
     ],
     "amenities": ["AirConditioning", "WasherDryer", "Parking", "Dishwasher"],
     "highlights": ["QuietNeighborhood"],
