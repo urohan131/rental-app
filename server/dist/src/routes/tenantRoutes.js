@@ -10,4 +10,7 @@ router.get("/:cognitoId", tenantControllers_1.getTenant);
 router.put("/:cognitoId", tenantControllers_1.updateTenant);
 router.get("/:cognitoId/properties", tenantControllers_1.getCurrentResidences);
 router.post("/", tenantControllers_1.createTenant);
+// Favorite property routes
+router.post("/:cognitoId/favorites/:propertyId", tenantControllers_1.addFavoriteProperty);
+router.delete("/:cognitoId/favorites/:propertyId", tenantControllers_1.removeFavoriteProperty);
 exports.default = router;

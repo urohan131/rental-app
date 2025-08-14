@@ -13,7 +13,7 @@ import { FiltersState } from ".";
 
 export const api = createApi({
   baseQuery: fetchBaseQuery({
-    baseUrl: process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:3002',
+    baseUrl: process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:3001",
     prepareHeaders: async (headers) => {
       const session = await fetchAuthSession();
       const { idToken } = session.tokens ?? {};
@@ -135,7 +135,7 @@ export const api = createApi({
     }),
 
     getCurrentResidences: build.query<Property[], string>({
-      query: (cognitoId) => `tenants/${cognitoId}/current-residences`,
+      query: (cognitoId) => `tenants/${cognitoId}/properties`,
       providesTags: (result) =>
         result
           ? [
