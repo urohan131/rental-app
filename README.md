@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -34,3 +35,23 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+=======
+# Real Estate Management Web App
+
+A full-stack web application for real estate property management, enabling managers and tenants to handle property listings, applications, and more through a modern, responsive interface.
+
+## Features
+
+- Role-based dashboards for managers and tenants
+- Property listing, application, and management workflows
+- Favorites, settings, and user profile management
+- Secure authentication and authorization
+- Modern UI with reusable components
+
+## Tech Stack
+
+- **Frontend:** Next.js (React), TypeScript, Tailwind CSS, Shadcn UI, Redux
+- **Backend:** Node.js, Express, TypeScript
+- **Database:** PostgreSQL (managed via Prisma ORM)
+- **Other:** RESTful APIs, JWT authentication, AWS EC2 deployment
+>>>>>>> 625be13989d1c269799ade52e2cbf887dac14df3
