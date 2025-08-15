@@ -22,6 +22,29 @@ export const api = createApi({
       }
       return headers;
     },
+    responseHandler: async (response) => {
+      // Check if response is JSON
+      const contentType = response.headers.get('content-type');
+      if (contentType && contentType.includes('application/json')) {
+        return response.json();
+      }
+      
+      // If not JSON, return the text content
+      const text = await response.text();
+      
+      // If it's an HTML error page, return a structured error
+      if (text.includes('<!DOCTYPE html>') || text.includes('<html')) {
+        return {
+          error: true,
+          message: 'Server returned HTML instead of JSON',
+          status: response.status,
+          statusText: response.statusText
+        };
+      }
+      
+      // Return the text content for other non-JSON responses
+      return text;
+    },
   }),
   reducerPath: "api",
   tagTypes: [
