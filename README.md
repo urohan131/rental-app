@@ -6,11 +6,13 @@
 ## 👤 Guest Credentials
 
 For demo purposes, you can log in using the following test account:
+
+
 For Tenant Role
 - **Email:** `urohankumar131@gmail.com`  
 - **Password:** `Welcome@123`
 
-  For Tenant Role
+  For Manager Role
 - **Email:** `urohan131@gmail.com`  
 - **Password:** `Welcome@123`
 
