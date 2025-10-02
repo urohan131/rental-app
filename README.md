@@ -1,4 +1,19 @@
-demo: https://main.d19mp4tvew2kqa.amplifyapp.com/
+## 🚀 Deployment
+
+- **Deployed URL:** [https://your-app-url.com](https://main.d372257zwq0b0b.amplifyapp.com/)  
+
+
+## 👤 Guest Credentials
+
+For demo purposes, you can log in using the following test account:
+For Tenant Role
+- **Email:** `urohankumar131@gmail.com`  
+- **Password:** `Welcome@123`
+
+  For Tenant Role
+- **Email:** `urohan131@gmail.com`  
+- **Password:** `Welcome@123`
+
 
 <<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
