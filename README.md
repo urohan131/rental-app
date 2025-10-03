@@ -14,7 +14,7 @@ For Tenant Role
 
   For Manager Role
 - **Email:** `urohan131@gmail.com`  
-- **Password:** `Welcome@123`
+- **Password:** `Welcome@131`
 
 
 <<<<<<< HEAD
